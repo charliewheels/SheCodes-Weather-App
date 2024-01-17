@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <form id="search-form">
+            <div class="form-section">
+                <input type="city" placeholder="Enter a city" required="yes" id="search-input" />
+            </div>
+            <div class="search-button">
+                <input type="submit" value="Search" />
+            </div>
+        </form>
+
+        <hr />
+
+        <header>
+            <h1 class="current-city" id="current-city">
+                London
+            </h1>
+            <h1 class="current-temperature">
+                <span id="current-temperature-icon"> ⛅ </span>
+                <span id="current-temperature-value"> 9 </span>
+                ℃
+            </h1>
+        </header>
+        <span class="current-date">
+            <span id="current-date">
+                Sunday 10:30
+            </span>
+            <span>
+                , moderate rain
+            </span>
+            <div class="humidity-wind">
+                Humidity <span class="humidity"> 87% </span>, Wind: <span class="wind"> 7.2km/h</span>
+            </div>
+        </span>
+
+        <hr />
+
+        <footer class="coded-by">
+            This project was coded by
+            <span href="https://www.linkedin.com/in/charlie-wheeler-34288363/" target="_blank" class="linkedin">
+                Charlie Wheeler
+            </span>
+        </footer>
+
+        <script src="src/index.js">
+        </script>
+
+    </div>
+</body>
+
+</html>

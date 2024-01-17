@@ -1,0 +1,81 @@
+body {
+  background: rgb(236, 235, 235);
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  border: 1px solid grey;
+  margin: 50px 100px 50px 100px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: 5px 5px 5px rgb(171, 170, 170);
+}
+
+input[type="city"] {
+  font-family: "Roboto", sans-serif;
+  padding: 8px 5px;
+  background: rgb(236, 235, 235);
+  border-radius: 3px;
+  border-color: transparent;
+  position: relative;
+}
+
+input[type="submit"] {
+  background: #662eed;
+  font-family: "Roboto", sans-serif;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 5px;
+  border-color: transparent;
+  position: relative;
+  top: -35px;
+  left: 170px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.current-city {
+  font-weight: bolder;
+}
+
+.current-temperature {
+  position: absolute;
+  top: 155px;
+  right: 130px;
+}
+
+.coded-by {
+  padding: 20px 20px 0px 0px;
+}
+
+hr {
+  color: rgb(210, 206, 206);
+}
+
+.subheader {
+  padding: 10px 0px 20px;
+}
+
+.humidity {
+  color: red;
+  font-weight: bolder;
+}
+
+.wind {
+  color: red;
+  font-weight: bolder;
+}
+
+.linkedin {
+  color: #662eed;
+  font-weight: bold;
+}
+
+.linkedin:hover {
+  color: red;
+  cursor: pointer;
+}
