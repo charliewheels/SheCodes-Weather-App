@@ -48,8 +48,9 @@ input[type="submit"]:hover {
   right: 130px;
 }
 
-.coded-by {
+.footer {
   padding: 20px 20px 0px 0px;
+  font-size: small;
 }
 
 hr {
