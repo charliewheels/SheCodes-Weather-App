@@ -48,17 +48,17 @@ input[type="submit"]:hover {
   right: 130px;
 }
 
-.footer {
-  padding: 50px 20px 0px 0px;
-  font-size: 12px;
+.subheader {
+  padding: 10px 0px 20px;
 }
 
 hr {
   color: rgb(210, 206, 206);
 }
 
-.subheader {
-  padding: 10px 0px 20px;
+.footer {
+  padding: 50px 50px 0px 0px;
+  font-size: 8;
 }
 
 .humidity {
