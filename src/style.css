@@ -79,3 +79,23 @@ hr {
   color: red;
   cursor: pointer;
 }
+
+.github {
+  color: #662eed;
+  font-weight: bold;
+}
+
+.github:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.netlify {
+  color: #662eed;
+  font-weight: bold;
+}
+
+.netlify:hover {
+  color: red;
+  cursor: pointer;
+}
