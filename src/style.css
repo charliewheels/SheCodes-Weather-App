@@ -14,24 +14,24 @@ body {
 }
 
 input[type="city"] {
-  font-family: "Roboto", sans-serif;
-  padding: 8px 5px;
-  background: rgb(236, 235, 235);
-  border-radius: 3px;
-  border-color: transparent;
-  position: relative;
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
 }
 
 input[type="submit"] {
-  background: #662eed;
-  font-family: "Roboto", sans-serif;
-  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #885df1;
   color: white;
-  padding: 8px 5px;
-  border-color: transparent;
-  position: relative;
-  top: -35px;
-  left: 170px;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover {
@@ -46,6 +46,7 @@ input[type="submit"]:hover {
   position: absolute;
   top: 155px;
   right: 130px;
+  font-size: 48px;
 }
 
 .subheader {
