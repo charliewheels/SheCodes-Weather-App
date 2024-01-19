@@ -54,6 +54,7 @@ input[type="submit"]:hover {
 
 .weather-detail {
   padding: 0px 0px 50px;
+  margin: 0px 0px 50px;
 }
 
 .humidity {
@@ -68,7 +69,6 @@ input[type="submit"]:hover {
 
 hr {
   color: rgb(210, 206, 206);
-  padding: 20px 0px 0px;
 }
 
 .footer {
