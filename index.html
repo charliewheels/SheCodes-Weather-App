@@ -28,27 +28,27 @@
 
         <hr />
         <main>
-            <header>
+            <div class="current-weather">
                 <h1 class="current-city" id="current-city">
                     London
                 </h1>
-                <h1 class="current-temperature">
-                    <span id="current-temperature-icon"> ⛅ </span>
-                    <span id="current-temperature-value"> 9 </span>
-                    ℃
-                </h1>
-            </header>
-            <span class="weather-detail">
-                <span id="current-date">
-                    Sunday 10:30
+                <span class="weather-detail">
+                    <span id="current-date">
+                        Sunday 10:30
+                    </span>
+                    <span>
+                        , moderate rain
+                    </span>
+                    <div class="humidity-wind">
+                        Humidity <span class="humidity"> 87% </span>, Wind: <span class="wind"> 7.2km/h</span>
+                    </div>
                 </span>
-                <span>
-                    , moderate rain
-                </span>
-                <div class="humidity-wind">
-                    Humidity <span class="humidity"> 87% </span>, Wind: <span class="wind"> 7.2km/h</span>
-                </div>
-            </span>
+            </div>
+            <div class="current-temperature">
+                <span id="current-temperature-icon" class="current-temperature-icon"> ⛅ </span>
+                <span id="current-temperature-value" class="current-temperature-value"> 9 </span>
+                <span id="current-temperature-unit" class="current-temperature-unit"> ℃ </span>
+            </div>
         </main>
 
         <hr />
