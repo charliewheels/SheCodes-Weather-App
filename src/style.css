@@ -17,7 +17,7 @@ header {
   padding-bottom: 30px;
 }
 
-input[type="city"] {
+.search-input {
   background-color: #f9f7fe;
   border: none;
   color: rgba(39, 33, 66, 0.4);
@@ -26,8 +26,7 @@ input[type="city"] {
   width: 75%;
   border-radius: 6px;
 }
-
-input[type="submit"] {
+.search-button {
   margin-left: 5px;
   font-size: 16px;
   background-color: #885df1;
