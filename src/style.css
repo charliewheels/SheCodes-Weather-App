@@ -5,7 +5,7 @@ body {
 
 .weather-app {
   background: white;
-  max-width: 800px;
+  max-width: 700px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
@@ -48,6 +48,7 @@ main {
 .current-temperature {
   font-size: 48px;
   text-align: right;
+  line-height: 1;
 }
 
 .current-weather {
