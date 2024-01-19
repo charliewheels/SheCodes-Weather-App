@@ -71,16 +71,6 @@ main {
   color: #f65282;
 }
 
-.humidity {
-  color: red;
-  font-weight: bolder;
-}
-
-.wind {
-  color: red;
-  font-weight: bolder;
-}
-
 .current-temperature-icon {
   position: relative;
   top: -8px;
@@ -100,8 +90,11 @@ main {
 }
 
 .footer {
-  padding: 10px 50px 0px 0px;
-  font-size: 12px;
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgba(39, 33, 66, 0.4);
 }
 
 .linkedin {
